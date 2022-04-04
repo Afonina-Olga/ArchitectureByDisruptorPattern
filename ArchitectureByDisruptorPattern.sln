@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureByDisruptorPattern", "ArchitectureByDisruptorPattern\ArchitectureByDisruptorPattern.csproj", "{3A304E7A-438F-4FC9-A027-349790B77F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A304E7A-438F-4FC9-A027-349790B77F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A304E7A-438F-4FC9-A027-349790B77F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A304E7A-438F-4FC9-A027-349790B77F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A304E7A-438F-4FC9-A027-349790B77F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1906625-C4DD-4BA1-8F7D-855A95697B53}
+	EndGlobalSection
+EndGlobal
