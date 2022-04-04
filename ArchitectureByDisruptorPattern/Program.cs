@@ -2,6 +2,7 @@
 
 using ArchitectureByDisruptorPattern.ArithmeticCommands;
 using ArchitectureByDisruptorPattern.WorkHandlers;
+using System;
 
 namespace ArchitectureByDisruptorPattern
 {
@@ -31,10 +32,18 @@ namespace ArchitectureByDisruptorPattern
 				using var scope = ringBuffer.PublishEvent();
 				var operationEvent = scope.Event();
 
-				operationEvent.SetValues(option.Id, option.Argument1, option.Argument2, BuildCommand(option.OperationType));
+				operationEvent.SetValues(
+					option.Id,
+					option.Argument1,
+					option.Argument2,
+					BuildCommand(option.OperationType));
 			}
 
 			disruptor.Shutdown();
+
+			Console.WriteLine(new string('-', 100));
+			Console.WriteLine($"TotalTicks: {ExecutionMetrics.TotalTicks}, MeasureCount: {ExecutionMetrics.MeasureCount}, AverageTicksForOperation: {ExecutionMetrics.TotalTicks/ExecutionMetrics.MeasureCount}");
+			Console.WriteLine(new string('-', 100));
 		}
 
 		private static IArithmeticOperationCommand BuildCommand(ArithmeticOperationType operationType)
