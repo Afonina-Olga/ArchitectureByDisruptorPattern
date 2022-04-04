@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureByDisruptorPattern", "ArchitectureByDisruptorPattern\ArchitectureByDisruptorPattern.csproj", "{3A304E7A-438F-4FC9-A027-349790B77F15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureByDisruptorPattern", "ArchitectureByDisruptorPattern\ArchitectureByDisruptorPattern.csproj", "{3A304E7A-438F-4FC9-A027-349790B77F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureByDisruptorPattern.Tests", "ArchitectureByDisruptorPattern.Tests\ArchitectureByDisruptorPattern.Tests.csproj", "{79D6A24D-F854-4522-8FD0-57E9957DF8B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3A304E7A-438F-4FC9-A027-349790B77F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A304E7A-438F-4FC9-A027-349790B77F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A304E7A-438F-4FC9-A027-349790B77F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D6A24D-F854-4522-8FD0-57E9957DF8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D6A24D-F854-4522-8FD0-57E9957DF8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D6A24D-F854-4522-8FD0-57E9957DF8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D6A24D-F854-4522-8FD0-57E9957DF8B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
